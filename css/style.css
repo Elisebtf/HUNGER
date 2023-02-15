@@ -446,9 +446,9 @@ ul{
 }
 
 .container .card .contentBx h2{
-  
-  font-weight: 600;
-  letter-spacing: 1px;
+  font-family: bold;
+  font-weight: 500;
+  letter-spacing: 6px;
   color: #fff;
   margin: 0;
 }
@@ -462,6 +462,7 @@ ul{
   visibility: hidden;
   padding-top: 0;
   padding-bottom: 0;
+  font-family: brook;
 }
 
 .container .card:hover .contentBx .size{
@@ -524,6 +525,10 @@ ul{
   transform: translateY(0px);
   transition-delay: 0.75s;
   
+}
+
+.titre{
+  top: 45%;
 }
 
 
