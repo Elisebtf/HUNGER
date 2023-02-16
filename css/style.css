@@ -553,6 +553,7 @@ ul{
 .navigation-project{
 position: absolute;
 z-index: 2;
+background-color: white;
 }
 .controls button{
   padding: 10px 10px;
