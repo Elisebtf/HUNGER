@@ -173,6 +173,15 @@ new Swiper('#projects .swiper-container', {
      gsap.from('.fade-up',1,{y:120,opacity:0,delay:1.5,stagger:.25});
      gsap.from('.fade-down',1,{y:-100,opacity:0,delay:1.5,stagger:.25});
      gsap.from('.fade-up-two',1,{y:120,opacity:0,delay:2.25,stagger:.25});
+
+     
+    $('.forest-project-link').click(function(){
+      $('.uncooked').show();
+      });
+
+      $('.sliders-control-image').click(function(){
+        $('.uncooked').hide();
+        });
   
      $('.about-link').on('click',function(){
        gsap.to('#home',.5,{scale:.9});
