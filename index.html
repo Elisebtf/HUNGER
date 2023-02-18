@@ -294,8 +294,11 @@ Nous, c'est l'agence HUNGER, crée en 2022, ptite agence web
       
 <!-- MARINE PROJECT -->
 
+
+
 <!-- FOREST PROJECT -->
 <div class="project forest-project">
+  
   <div class="navigation navigation-project">
         
     <div class="logo home-link about-opacity">
@@ -463,11 +466,7 @@ Nous, c'est l'agence HUNGER, crée en 2022, ptite agence web
 <!--CONTACT PAGE-->
 <div id="contact">
   <div class="navigation navigation-contact">
-    <img src="images/H.png" alt="next" class="sliders-control-image"a href="#">
-        
-    <div class="logo home-link contact-opacity">
-     <a href="#">HUNGER</a>
-    </div>
+  
   
     <div class="navigation-links contact-opacity">
      <div class="navigation-close hover contact-close">
@@ -487,12 +486,12 @@ Nous, c'est l'agence HUNGER, crée en 2022, ptite agence web
         <div class="form contact-opacity" autocomplete="false">
           <form  id ="myForm" action="mail.php">
             <div class="input-line">
-              <input id="name" type="text" placeholder="name" class="input-same-line">
-              <input id="email" type="email" placeholder="email" class="input-same-line">
+              <input id="name" type="text" placeholder="Ton Nom" class="input-same-line">
+              <input id="email" type="email" placeholder="Ton email" class="input-same-line">
             </div>
             <div class="input-line-column">
-              <input id="subject" type="text" placeholder="subject">
-              <textarea name="textarea" id="body" class="textarea" placeholder="message"></textarea>
+              <input id="subject" type="text" placeholder="Objet">
+              <textarea name="textarea" id="body" class="textarea" placeholder="Message"></textarea>
             </div>
            <button type="button" id="submit" class="hover">Envoies wsh</button>
           </form>
@@ -506,8 +505,55 @@ Nous, c'est l'agence HUNGER, crée en 2022, ptite agence web
 <!--CONTACT PAGE-->
 
 
+<!--UNCOOKED-->
+
+
+<div class="uncooked">
+  
+  <div class="navigation navigation-project">
+        
+    <div class="logo home-link about-opacity">
+      <img src="images/H.png" alt="next" class="sliders-control-image"a href="#">
+    </div>
+  
+    <div class="navigation-links about-opacity">
+     <div class="navigation-close hover forest-close">
+       <div class="navigation-close-line"></div>
+       <div class="navigation-close-line"></div>
+     </div>
+    </div>
+  
+  </div>
+  <div class="col-12 p-0 m-0">
+ <div class="slideshow">
+   <div class="forest-slides">
+     <img src="images/header-image-two.webp" alt="marine-image">
+   </div>
+   <div class="forest-slides">
+     <img src="images/forest-image-two.webp" alt="marine-image">
+   </div>
+   <div class="forest-slides">
+     <img src="images/forest-image-three.webp" alt="marine-image">
+   </div>
+   <div class="forest-slides">
+     <img src="images/forest-image-five.webp" alt="marine-image">
+   </div>
+   <div class="forest-slides">
+     <img src="images/forest-image-six.webp" alt="marine-image">
+   </div>
+ </div>
+
+ </div>
+ <div class="controls">
+  <button id ="forest-prev" class="hover"><img src="images/prev.png" alt="prev" class="imgs"></button>
+  <button id ="forest-next" class="hover"><img src="images/next.png" alt="next" class="imgs"></button>
+</div>
+
+
 
     </div>
+
+    <!--UNCOOKED-->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js" integrity="sha256-4sETKhh3aSyi6NRiA+qunPaTawqSMDQca/xLWu27Hg4=" crossorigin="anonymous"
     ></script>
@@ -544,6 +590,8 @@ Nous, c'est l'agence HUNGER, crée en 2022, ptite agence web
       var prev = document.getElementById('prev');
       prev.addEventListener('click',prevslide);
   })
+
+  
 
   //forest slideshow
 
