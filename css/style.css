@@ -19,6 +19,10 @@ margin: 0;
 box-sizing: border-box;
 }
 
+.uncooked{
+  display: none;
+}
+
 #background-video {
   height: 100vh;
   width: 100vw;
@@ -292,8 +296,7 @@ ul{
   top:0;
   width: 100%;
   height:100%;
-  background: #041b4e;
-  opacity: .5;
+  
 }
 
 #breaker{
@@ -958,12 +961,12 @@ FOR MOBILES
 }
 
 .slider-control-image{
-  height:51px;
-  margin-top: -25%;
+  height:48px;
+  
 }
 .slider-controls{
   position: absolute;
-  right:15%;
+  right:18%;
   bottom:10%;
   height: auto;
   width: auto;
