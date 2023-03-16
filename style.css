@@ -423,7 +423,11 @@ blockquote p {
 
 
 #uncooked{
-  width: 80%;
+  width: 25%;
+    top: 40%;
+    padding: 2%;
+    margin-bottom: 2%;
+    margin-top: -4%;
 }
 
 /* *********************************************************
@@ -1677,11 +1681,24 @@ footer p, footer a {
   }
 }
 
+
+/*------------------------------------------------------------- 
+  MOBILE
+---------------------------------------------------------------*/
+
 @media handheld, only screen and (max-width: 767px) {
   #top-header {
     position: absolute;
     padding: 8px 0;
   }
+
+  #uncooked {
+    width: 45%;
+    top: 40%;
+    padding: 2%;
+    margin-bottom: 2%;
+    margin-top: -4%;
+}
 
   .logo-wrap {
     float: left;
